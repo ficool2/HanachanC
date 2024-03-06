@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\common.h" />
+    <ClInclude Include="src\common\bin.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\math.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\stream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\course\course.h">
+      <Filter>course</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\arc.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\kcl.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\kmp.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\rkg.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\rkrd.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\yaz.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player\player.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\param.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\bikeparts.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fs\bsp.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\physics.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vehicle\vehicle.h">
+      <Filter>vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\floor.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\trick.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\start_boost.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player\input.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\boost.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\math_wii.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\standstill_boost.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\ramp_boost.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\surface_props.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\jump_pad.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\drift.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\wheelie.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\turn.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\dive.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\lean.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\graphics.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\standstill_miniturbo.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader_basic.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader_basic_vcolor.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\common\bin.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\math.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\stream.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\course\course.c">
+      <Filter>course</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\arc.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\kcl.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\kmp.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\rkg.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\rkrd.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\yaz.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player\player.c">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\param.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\game.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\bikeparts.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fs\bsp.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\physics.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vehicle\vehicle.c">
+      <Filter>vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\floor.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\trick.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\start_boost.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player\input.c">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\boost.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\standstill_boost.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\ramp_boost.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\surface_props.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\jump_pad.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\drift.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\wheelie.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\turn.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\dive.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\lean.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\graphics.c">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\standstill_miniturbo.c">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader.c">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader_basic.c">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader_basic_vcolor.c">
+      <Filter>graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{d6313090-ff20-4901-9eee-c01af8ff24c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="course">
+      <UniqueIdentifier>{b7b37af1-5abc-4844-8b67-ef41a2da784d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{bc237495-8213-4518-9634-de10eb7b798f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fs">
+      <UniqueIdentifier>{c006f06d-6a23-4168-a963-cfaa1f089072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{f1ae8325-3cf5-42fc-b51a-6698e62c4572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vehicle">
+      <UniqueIdentifier>{4b9a87fa-a2bd-4ad6-8e87-b2e8dd8191e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{4d832652-d157-4c58-a946-8fce8b436a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{eaf0ce8c-9c45-46c0-bd1d-4c9a71c640d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

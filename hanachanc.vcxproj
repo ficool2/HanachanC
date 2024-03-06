@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common.h" />
+    <ClInclude Include="src\common\bin.h" />
+    <ClInclude Include="src\common\math.h" />
+    <ClInclude Include="src\common\math_wii.h" />
+    <ClInclude Include="src\common\stream.h" />
+    <ClInclude Include="src\common\util.h" />
+    <ClInclude Include="src\course\course.h" />
+    <ClInclude Include="src\fs\arc.h" />
+    <ClInclude Include="src\fs\bikeparts.h" />
+    <ClInclude Include="src\fs\bsp.h" />
+    <ClInclude Include="src\fs\param.h" />
+    <ClInclude Include="src\fs\kcl.h" />
+    <ClInclude Include="src\fs\kmp.h" />
+    <ClInclude Include="src\fs\rkg.h" />
+    <ClInclude Include="src\fs\rkrd.h" />
+    <ClInclude Include="src\fs\yaz.h" />
+    <ClInclude Include="src\game\game.h" />
+    <ClInclude Include="src\graphics\graphics.h" />
+    <ClInclude Include="src\graphics\shader.h" />
+    <ClInclude Include="src\graphics\shader_basic.h" />
+    <ClInclude Include="src\graphics\shader_basic_vcolor.h" />
+    <ClInclude Include="src\physics\boost.h" />
+    <ClInclude Include="src\physics\dive.h" />
+    <ClInclude Include="src\physics\drift.h" />
+    <ClInclude Include="src\physics\floor.h" />
+    <ClInclude Include="src\physics\jump_pad.h" />
+    <ClInclude Include="src\physics\lean.h" />
+    <ClInclude Include="src\physics\physics.h" />
+    <ClInclude Include="src\physics\ramp_boost.h" />
+    <ClInclude Include="src\physics\standstill_boost.h" />
+    <ClInclude Include="src\physics\standstill_miniturbo.h" />
+    <ClInclude Include="src\physics\start_boost.h" />
+    <ClInclude Include="src\physics\surface_props.h" />
+    <ClInclude Include="src\physics\trick.h" />
+    <ClInclude Include="src\physics\turn.h" />
+    <ClInclude Include="src\physics\wheelie.h" />
+    <ClInclude Include="src\player\input.h" />
+    <ClInclude Include="src\player\player.h" />
+    <ClInclude Include="src\vehicle\vehicle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\common\bin.c" />
+    <ClCompile Include="src\common\math.c" />
+    <ClCompile Include="src\common\stream.c" />
+    <ClCompile Include="src\course\course.c" />
+    <ClCompile Include="src\fs\arc.c" />
+    <ClCompile Include="src\fs\bikeparts.c" />
+    <ClCompile Include="src\fs\bsp.c" />
+    <ClCompile Include="src\fs\param.c" />
+    <ClCompile Include="src\fs\kcl.c" />
+    <ClCompile Include="src\fs\kmp.c" />
+    <ClCompile Include="src\fs\rkg.c" />
+    <ClCompile Include="src\fs\rkrd.c" />
+    <ClCompile Include="src\fs\yaz.c" />
+    <ClCompile Include="src\game\game.c" />
+    <ClCompile Include="src\graphics\graphics.c" />
+    <ClCompile Include="src\graphics\shader.c" />
+    <ClCompile Include="src\graphics\shader_basic.c" />
+    <ClCompile Include="src\graphics\shader_basic_vcolor.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\physics\boost.c" />
+    <ClCompile Include="src\physics\dive.c" />
+    <ClCompile Include="src\physics\drift.c" />
+    <ClCompile Include="src\physics\floor.c" />
+    <ClCompile Include="src\physics\jump_pad.c" />
+    <ClCompile Include="src\physics\lean.c" />
+    <ClCompile Include="src\physics\physics.c" />
+    <ClCompile Include="src\physics\ramp_boost.c" />
+    <ClCompile Include="src\physics\standstill_boost.c" />
+    <ClCompile Include="src\physics\standstill_miniturbo.c" />
+    <ClCompile Include="src\physics\start_boost.c" />
+    <ClCompile Include="src\physics\surface_props.c" />
+    <ClCompile Include="src\physics\trick.c" />
+    <ClCompile Include="src\physics\turn.c" />
+    <ClCompile Include="src\physics\wheelie.c" />
+    <ClCompile Include="src\player\input.c" />
+    <ClCompile Include="src\player\player.c" />
+    <ClCompile Include="src\vehicle\vehicle.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ef93fa2e-6ede-47d0-93f2-e438f77426de}</ProjectGuid>
+    <RootNamespace>hanachanc</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <EnableASAN>true</EnableASAN>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <EnableASAN>false</EnableASAN>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <EnableASAN>true</EnableASAN>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <EnableASAN>false</EnableASAN>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>temp\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <LibraryPath>$(SolutionDir)lib\win64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <IncludePath>$(SolutionDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <TargetName>$(ProjectName)_debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IntDir>temp\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <LibraryPath>$(SolutionDir)lib\win64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <IncludePath>$(SolutionDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>temp\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <LibraryPath>$(SolutionDir)lib\win32;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <TargetName>$(ProjectName)_debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>temp\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <LibraryPath>$(SolutionDir)lib\win32;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;GLEW_STATIC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4201;</DisableSpecificWarnings>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>setupapi.lib;winmm.lib;imm32.lib;version.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;glew32s.lib;opengl32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;GLEW_STATIC;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4201;</DisableSpecificWarnings>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <Optimization>MaxSpeed</Optimization>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>setupapi.lib;winmm.lib;imm32.lib;version.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;glew32s.lib;opengl32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;GLEW_STATIC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4201;</DisableSpecificWarnings>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>setupapi.lib;winmm.lib;imm32.lib;version.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;glew32s.lib;opengl32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;GLEW_STATIC;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4201;</DisableSpecificWarnings>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>setupapi.lib;winmm.lib;imm32.lib;version.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;glew32s.lib;opengl32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
